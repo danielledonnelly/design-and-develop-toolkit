@@ -1,18 +1,72 @@
+html {
+  display: block;
+}
 
-/* Style for main content */
 #main-doc {
-  position: absolute !important;
-  margin-left: 200px !important;
-  top: 0 !important;
+  margin-left: 300px;
+  padding: 20px;
 }
 
 #navbar {
-  position: fixed !important;
-  max-width: 200px !important;
-  top: 0px;
-  left: 0px;
-  width: 100px !i;
+  position: fixed;
+  width: 300px !important;
+  top: 0;
+  left: 0;
   height: 100%;
   border-right: solid;
   border-color: lightgrey;
+  padding: 20px;
+}
+
+#nav-header{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-item {
+  line-height: 40px;
+}
+
+.head {
+  font-size: 20px;
+}
+
+
+
+h5 {
+  text-align: center;
+}
+
+.bullets {
+  line-height: 22px;
+}
+
+.nav-link {
+  color: grey !important;
+}
+
+pre code {
+  background-color: #eee;
+  border: solid lightgrey !important;
+  display: block;
+  padding: 20px;
+  line-break: anywhere;
+}
+
+pre {
+  overflow-x: auto; /* Add horizontal scroll if necessary */
+  white-space: pre-wrap; /* Preserve line breaks */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  #main-doc {
+    margin-left: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #main-doc {
+    margin-left: 300px !important;
+  }
 }
