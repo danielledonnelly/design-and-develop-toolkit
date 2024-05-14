@@ -58,7 +58,6 @@ pre {
   white-space: pre-wrap; /* Preserve line breaks */
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   #main-doc {
     margin-left: 200px !important;
