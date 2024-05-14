@@ -1,0 +1,42 @@
+/* Style for vertical navbar */
+.sidebar {
+  height: 100vh; /* Make navbar full height of viewport */
+  position: fixed; /* Fix the navbar position */
+  left: 0; /* Position navbar to the left */
+  top: 0; /* Align navbar to the top */
+  padding-top: 20px; /* Add padding to top */
+  width: 200px; /* Set width of navbar */
+  background-color: #f8f9fa; /* Background color for the navbar */
+  border-right: 1px solid #dee2e6; /* Add border on the right side */
+  overflow-y: auto; /* Allow vertical scrolling if content exceeds viewport height */
+}
+
+/* Style for main content */
+#main-doc {
+  margin-left: 220px; /* Adjust margin to accommodate navbar width plus a space */
+}
+
+/* Additional styling */AV
+.sidebar h1 {
+  text-align: center; /* Center align the header */
+  margin-bottom: 20px; /* Add margin to bottom of header */
+}
+
+.sidebar ul {
+  padding-left: 0; /* Remove default padding from ul */
+}
+
+.sidebar ul li {
+  list-style: none; /* Remove default list style */
+}
+
+.sidebar ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Change link color */
+  display: block; /* Make links block-level elements */
+  padding: 10px; /* Add padding to links */
+}
+
+.sidebar ul li a:hover {
+  background-color: #e9ecef; /* Change background color on hover */
+}
